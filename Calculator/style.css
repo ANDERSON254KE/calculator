@@ -1,0 +1,112 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+body{
+      font-size: 20px;
+      font-family:sans-serif;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      }
+
+.container {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding: 10px;
+    background-color: rgb(92, 166, 232);
+    border-radius: 50px;
+}
+ .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:10px;
+    padding: 4px;
+ }
+ .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 90px;
+    min-height: 90px;
+    border: 1px solid  rgb(211, 211, 211);
+    border-radius: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+    }
+.dark-container{
+    background-color: black;
+}
+.dark-container .button{
+    color: white;
+}
+.dark-container .button:hover{
+    color: black;
+}
+.dark-container .button:hover{
+    color: black;
+    background-color: whitesmoke;
+}
+.dark-container .display{
+    background-color: aquamarine;
+}
+/* .dark-container .button{
+    color: rgb(242, 234, 234);
+} */
+.button:hover{
+   background-color: rgb(91, 189, 67);
+    }
+    .Dark:hover{
+     background-color: rgb(2, 0, 5);
+     color:white;
+      }
+      .Clear:hover{
+          background-color: rgb(211, 189, 233);
+           }
+.Backspace:hover{
+    background-color: darkgreen;
+}
+.Divide:hover{
+     background-color: rgb(205, 208, 23);
+      }
+.Multiply:hover{
+          background-color: rgb(102, 19, 211);
+           }
+.Minus:hover{
+               background-color: rgb(232, 13, 243);
+                }
+.Plus:hover{
+                    background-color: rgb(229, 21, 21);
+                     }     
+ .dot:hover{
+     background-color: rgb(3, 203, 136);
+ }                               
+ #equal:hover{
+     background-color: rgb(242, 80, 10);
+     
+         }
+.button:last-child{
+ margin-right: 0;
+}
+
+.display{
+     min-width: 390px;
+     min-height: 120px;
+     border: 1px solid  rgb(211, 211, 211);
+     border-radius: 50px;
+     margin: 10px;
+     padding: 25px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 24px;
+     font-weight: bold;
+
+}
+
